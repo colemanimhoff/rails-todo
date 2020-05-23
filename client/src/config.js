@@ -1,2 +1,2 @@
 
-export const bff = 'http://localhost:3001/v1'
+export const bff = process.env.NODE_ENV ? 'http://localhost:3001/v1' : '/'
