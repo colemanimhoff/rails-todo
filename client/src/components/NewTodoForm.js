@@ -78,7 +78,7 @@ const NewTodoForm = () => {
             </Form.Group>
             <div>
                 <Button block={true} variant="primary" type="submit">Submit</Button>
-                <Button as={Link} block={true} variant="secondary" to="/todos">Cancel</Button>
+                <Button as={Link} block={true} variant="secondary" to="/">Cancel</Button>
             </div>
         </Form>
     )
