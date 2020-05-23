@@ -1,0 +1,25 @@
+{
+  "name": "rails-todo",
+  "version": "1.0.0",
+  "description": "Yet another todo app...",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "cd client && npm install && npm run build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "postinstall": "npm run build && npm run deploy && echo 'Client built!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colemanimhoff/rails-todo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colemanimhoff/rails-todo/issues"
+  },
+  "homepage": "https://github.com/colemanimhoff/rails-todo#readme"
+}
