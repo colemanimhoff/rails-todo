@@ -1,0 +1,21 @@
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0px;
+}
+
+.nav-links-left {
+    display: flex;
+}
+
+.todo-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-todo-buttons {
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+}
